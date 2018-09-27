@@ -27,5 +27,9 @@ Final result:
 
 ### Python Script
 
-Of course there is a python script that handles it all, copy it in your `/home/pi` directory as [`blink.py`]
+Of course there is a python script that handles it all, copy it in your `/home/pi` directory as [`blink.py`](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/blink.py.github). 
+
+To start the script `blink.py` at boot, add it to the pi user crontab (`crontab -e`) as:
+  
+  `@reboot python /home/pi/blink.py &` .
 
