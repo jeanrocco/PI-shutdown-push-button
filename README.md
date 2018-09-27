@@ -9,5 +9,13 @@ I thought this was so usefull that I wanted to replicate it here so I would not 
 
 My meager contribution is repackaging the push button and the led to easily mount them on the PI header.
 
+### Breadboard view
 
+`Fritzing` does not allow the kind of 3D drawing I need to explain how to mount the resistors and the push button (PB) on top of a dual inline 6 pins female header, excuse the distorded view...
+
+![PI_header_BP_led](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/PI_Header_PB_LED_bb1.png)
+
+### and Schematic
+
+![schematic](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/PI_Header_PB_LED_schem.png)
 
