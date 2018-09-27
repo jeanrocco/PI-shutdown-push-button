@@ -19,3 +19,13 @@ My meager contribution is repackaging the push button and the led to easily moun
 
 ![schematic](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/PI_Header_PB_LED_schem.png)
 
+### Picture
+
+Final result:
+
+![picture](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/PB_led_header.png)
+
+### Python Script
+
+Of course there is a python script that handles it all, copy it in your `/home/pi` directory as [`blink.py`]
+
