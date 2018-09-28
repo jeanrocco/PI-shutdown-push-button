@@ -19,11 +19,16 @@ My meager contribution is repackaging the push button and the led to easily moun
 
 ![schematic](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/PI_Header_PB_LED_schem.png)
 
-### Picture
+### Pictures
 
-Final result:
+Some pictures might help...
 
-![picture](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/PB_led_header.png)
+![picture1](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/20180928_173451.jpg)
+![picture2](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/20180928_173256.jpg)
+![picture3](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/20180928_173220.jpg)
+![picture4](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/20180928_172805.jpg)
+![picture5](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/20180928_172744.jpg)
+
 
 ### Python Script
 
