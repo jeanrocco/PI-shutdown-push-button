@@ -11,7 +11,7 @@ My meager contribution is repackaging the push button and the led to easily moun
 
 ### Breadboard view
 
-`Fritzing` does not allow the kind of 3D drawing I need to explain how to mount the resistors and the push button (PB) on top of a dual inline 6 pins female header, excuse the distorded view...
+`Fritzing` does not allow the kind of 3D drawing I need to explain how to mount the resistors and the push button (PB) on top of a dual inline 6 pins female header, sorry for the distorded "perspective" view...
 
 ![PI_header_BP_led](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/PI_Header_PB_LED_bb1.png)
 
@@ -38,3 +38,4 @@ To start the script `blink.py` at boot, add it to the pi user crontab (`crontab 
   
   `@reboot python /home/pi/blink.py &` .
 
+### Enjoy !
