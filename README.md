@@ -26,6 +26,9 @@ Some pictures might help...
 ![picture1](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/20180928_173451.jpg)
 ![picture2](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/20180928_173256.jpg)
 ![picture3](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/20180928_173220.jpg)
+
+some epoxy glue visible on that one...
+
 ![picture4](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/20180928_172805.jpg)
 ![picture5](https://github.com/jeanrocco/PI-shutdown-push-button/blob/master/20180928_172744.jpg)
 
