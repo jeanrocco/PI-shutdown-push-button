@@ -9,6 +9,8 @@ I thought this was so usefull that I wanted to replicate it here so I would not 
 
 My meager contribution is repackaging the push button and the led to easily mount them on the PI header.
 
+The led will turn on when a program of your choosing is running, in my case it is python...
+
 ### Breadboard view
 
 `Fritzing` does not allow the kind of 3D drawing I need to explain how to mount the resistors and the push button (PB) on top of a dual inline 6 pins female header, sorry for the distorded "perspective" view...
