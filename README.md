@@ -1,7 +1,7 @@
 # PI-shutdown-push-button
 A header mounted push button that will safely shutdown the Raspberry PI
 
-This project describes a very simple but very very usefull tool that allow you to safely shutdown your Raspberry PI. This might be particularly usefull when, for instance, your headless PI is unreacheable because your network/wifi-router happens to be down... you probably know what I mean... the question is then how to safely shutdown the PI without risking an SD card corruption. 
+This project describes a very simple but very very usefull tool that allow you to safely shutdown your Raspberry PI. This might be particularly usefull when, for instance, your headless PI is unreacheable because your network/wifi-router happens to be down at the exact moment you need to shut down the PI ... you probably know what I mean... the question is then how to safely shutdown the PI without risking any SD card corruptions. 
 
 Now I didn't devised this setup, the credit all goes to [GIMX](https://gimx.fr/wiki/index.php?title=RPi#Autostart_GIMX_at_boot_without_GUI) where I found it. A bit of advertisement here:... GIMX is a cool project that allows old gamers, like me, to use the mouse and keyboard to play games on the PlayStation or XBox. Sounds like a gimmick doesn't it :-) !!!
 
