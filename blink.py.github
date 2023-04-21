@@ -32,7 +32,7 @@ while True:                    # instead of doing nothing, find if Python is run
     try:
       cmd = open(os.path.join('/proc', pid, 'cmdline'), 'rb').read()
 #      if "gimx" in cmd:       # well yes I took this code from the GIMX project...https://gimx.fr/wiki/index.php?title=RPi 
-      if "python" in cmd:      # any program you like here 
+      if b"python" in cmd:      # any program you like here 
         found = True
     except IOError: # proc has already terminated
       continue
