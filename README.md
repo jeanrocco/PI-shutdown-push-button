@@ -45,7 +45,7 @@ To start the script `blink.py` at boot, add it to the pi user crontab (`crontab 
   
   UPDATE april 20, 2023:
   
-  I just installed `Moode 8.3.1`, which comes with an Airplay2 renderer, on a `PI-3b 1.2` equipped with an IQaudio-pro DAC HAT. This allows my 2 old mid-2012 MACs, recently upgraded to `VENTURA 13.3.1` no less, with the wonderfull `https://dortania.github.io/OpenCore-Legacy-Patcher/`, to stream music with Airplay. 
+  I just installed `Moode 8.3.1`, which comes with an Airplay2 renderer, on a `PI-3b 1.2` equipped with an `IQaudio DAC Pro` HAT. This allows my 2 old mid-2012 MACs, recently upgraded to `VENTURA 13.3.1` no less, with the wonderfull `https://dortania.github.io/OpenCore-Legacy-Patcher/`, to stream music with Airplay. 
   
   The push button and the led work fine but in order to start the script at boot you will have to add as root, at the end of  `/etc/rc.local`, and before `exit 0` : `(/home/pi/blink.py)&` as is, with the the brackets and all. I got this from `https://www.msldigital.com/pages/shutdown-scripts-for-moode-audio` .
   
