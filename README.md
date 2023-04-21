@@ -45,7 +45,7 @@ To start the script `blink.py` at boot, add it to the pi user crontab (`crontab 
   
   UPDATE april 20, 2023:
   
-  I just installed `Moode 8.3.1` on a PI-3b 1.2 which comes with an Airplay2 renderer, and it works great with `IQaudio-pro DAC` etc ... The push button and the led work fine but in order to start the script at boot you will have to add instead as root at the end of  `/etc/rc.local` and before `exit 0` : `(/home/pi/blink.py)&` as is, with the the brackets and all. I got this from `https://www.msldigital.com/pages/shutdown-scripts-for-moode-audio` .
+  I just installed `Moode 8.3.1` on a PI-3b 1.2 which comes with an Airplay2 renderer, and it works great with `IQaudio-pro DAC` etc ... The push button and the led work fine but in order to start the script at boot you will have to add as root, at the end of  `/etc/rc.local`, and before `exit 0` : `(/home/pi/blink.py)&` as is, with the the brackets and all. I got this from `https://www.msldigital.com/pages/shutdown-scripts-for-moode-audio` .
   
   jrb.
   
