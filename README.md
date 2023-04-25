@@ -43,7 +43,7 @@ To start the script `blink.py` at boot, add it to the pi user crontab (`crontab 
   
   `@reboot python /home/pi/blink.py &` .
   
-  ###UPDATE april 20, 2023:
+###  UPDATE april 20, 2023:
   
   I just installed `Moode 8.3.1`, which comes with an Airplay2 renderer, on a `PI-3b 1.2` equipped with an `IQaudio DAC Pro` HAT. This allows my 2 old mid-2012 MACs, recently upgraded to `VENTURA 13.3.1` no less, with the wonderfull `https://dortania.github.io/OpenCore-Legacy-Patcher/`, to stream music with Airplay. 
   
