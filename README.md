@@ -48,6 +48,23 @@ To start the script `blink.py` at boot, add it to the pi user crontab (`crontab 
   I just installed `Moode 8.3.1`, which comes with an Airplay2 renderer, on a `PI-3b 1.2` equipped with an `IQaudio DAC Pro` HAT. This allows my 2 old mid-2012 MACs, recently upgraded with the wonderfull `https://dortania.github.io/OpenCore-Legacy-Patcher/`, to `VENTURA 13.3.1` no less, to stream music with Airplay2. 
   
   The push button and the led work as before but in order to start the script at boot time you will have to add as root, at the end of  `/etc/rc.local`, and before `exit 0` : `(/home/pi/blink.py)&` as is, with the the brackets and all. I got this from `https://www.msldigital.com/pages/shutdown-scripts-for-moode-audio` .
+
+### UPDATE Nov. 2023: An other update to simplify the previous one...
+
+  After some issues with the Airplay renderers, I found out a simpler setup based on Spotify "connect to a device" feature, that allows to play tunes on the RPI IQaudio DAC, from another computer's browser. 
+  First install the latest PI OS (cat /etc/issue => Raspbian GNU/Linux 11 \n \l) on the PI, to make sure the IQaudio DAC is the default audio player change these parameters in /boot/config.txt: 
+
+  Enable audio (loads snd_bcm2835)
+#dtparam=audio=on
+dtoverlay=iqaudio-dacplus
+#dtoverlay=rpi-dacpro
+.
+.
+.
+ Enable DRM VC4 V3D driver
+dtoverlay=vc4-kms-v3d,noaudio
+max_framebuffers=2
+
   
   jrb.
   
