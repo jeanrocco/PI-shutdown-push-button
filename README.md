@@ -70,7 +70,7 @@ add: dtoverlay=vc4-kms-v3d,noaudio
  
  That's it, from any browser on any of your in house computer, you can now play music on the PI IQaudio DAC. 
  
- I gain no more hassles with the proprietary finecky and elitism Airplays ... 
+ I gain no more hassles with the proprietary finecky and elitism Airplays ... This bring me joy, as long as Spotify stays that way, but ... :-) !
  
   
 
