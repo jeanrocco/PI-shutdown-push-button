@@ -51,22 +51,28 @@ To start the script `blink.py` at boot, add it to the pi user crontab (`crontab 
 
 ### UPDATE Nov. 2023: An other update to simplify the previous one...
 
-  After some issues with the Airplay renderers, I found out a simpler setup based on Spotify "connect to a device" feature, that allows to play tunes on the RPI IQaudio DAC, from another computer's browser. 
-  First install the latest PI OS (cat /etc/issue => Raspbian GNU/Linux 11 \n \l) on the PI, to make sure the IQaudio DAC is the default audio player change these parameters in /boot/config.txt: 
-
-  Enable audio (loads snd_bcm2835)
-#dtparam=audio=on
-dtoverlay=iqaudio-dacplus
-#dtoverlay=rpi-dacpro
-.
-.
-.
- Enable DRM VC4 V3D driver
-dtoverlay=vc4-kms-v3d,noaudio
-max_framebuffers=2
-
+  After some issues with the Airplay renderers, I found out a simpler setup based on Spotify "connect to a device" feature, which allows to play tunes on the RPI IQaudio DAC, from another computer's browser.
   
-  jrb.
+  First install the latest PI OS (cat /etc/issue => Raspbian GNU/Linux 11 \n \l) on the PI. To make sure the IQaudio DAC is the default audio player change these parameters in /boot/config.txt: 
+
+in: Enable audio (loads snd_bcm2835)
+
+add: dtoverlay=iqaudio-dacplus
+
+
+in: Enable DRM VC4 V3D driver
+
+add: dtoverlay=vc4-kms-v3d,noaudio
+  
+ Reboot your PI, and from any PC or MAC, access it with VNC, and start a Chromium session to connect to URL: "Spotify web server". Once connected to Spotify, you can close the VNC session on your PI. 
+ 
+ Then on any PC or MAC computer, from a browser, connect to URL: "spotify web server", and chose "connect to a device" and click "web player Chrome" which is still running on your PI 
+ 
+ That's it, from any browser on any of your in house computer, you can now play music on the PI IQaudio DAC. 
+ 
+ I gain no more hassles with the proprietary finecky and elitism Airplays ... 
+ 
   
 
 ### Enjoy !
+jrb.
