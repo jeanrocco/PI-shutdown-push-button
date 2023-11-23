@@ -51,7 +51,7 @@ To start the script `blink.py` at boot, add it to the pi user crontab (`crontab 
 
 ### UPDATE Nov. 2023: An other update to simplify the previous one...
 
-  After some issues with the Airplay renderers, I found out a simpler setup based on Spotify "connect to a device" feature, which allows to play tunes on the RPI IQaudio DAC, from another computer's browser.
+  After some issues with the Airplay renderers, I found out a simpler, and most satisfying, setup based on Spotify's "connect to a device" feature, which allows to play tunes on the RPI IQaudio DAC, from another computer's browser.
   
   First install the latest PI OS (cat /etc/issue => Raspbian GNU/Linux 11 \n \l) on the PI. To make sure the IQaudio DAC is the default audio player change these parameters in /boot/config.txt: 
 
