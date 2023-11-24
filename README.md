@@ -57,6 +57,8 @@ To start the script `blink.py` at boot, add it to the pi user crontab (`crontab 
 
 in: Enable audio (loads snd_bcm2835)
 
+comment out: #dtparam=audio=on
+
 add: dtoverlay=iqaudio-dacplus
 
 
@@ -68,9 +70,8 @@ add: dtoverlay=vc4-kms-v3d,noaudio
  
  Then on any PC or MAC computer, from a browser, connect to URL: "spotify web server", and chose "connect to a device" and click "web player Chrome" which is still running on your PI 
  
- That's it, from any browser on any of your in house computer, you can now play music on the PI IQaudio DAC. 
- 
- I gain no more hassles with the proprietary finecky and elitism Airplays ... This brings me joy, as long as Spotify stays that way, but ... :-) !
+ That's it, from any browser on any of your in house computer, you can now play music on the PI IQaudio DAC without the proprietary Airplays ...
+
  
   
 
