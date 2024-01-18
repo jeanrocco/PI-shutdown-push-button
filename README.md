@@ -73,7 +73,11 @@ dtoverlay=vc4-kms-v3d,noaudio
 max_framebuffers=2
 ...
 ...
-``` 
+```
+We need to remove `pulseaudio` as it breaks up things ...
+
+`sudo apt-get remove --purge pulseaudio`
+
  Reboot your PI, and from any PC or MAC, access it with VNC, and start a Chromium session to connect to the "Spotify web server" URL. Once connected to Spotify, test if it's playing on the DAC, then you can close the VNC session to your PI if you want to but don't close the Spotify web page. 
  
  Then on any PC or MAC computer, from any browser, again connect to the "spotify web server" URL, and at the bottom right hand corner, click the "speaker box like icon" displaying "connect to a device" and click "web player (Chrome)" which is still running on your PI. From now on, any tunes you choose will be played on the Pi's DAC ... ain't that cute !
